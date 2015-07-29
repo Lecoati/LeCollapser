@@ -1,0 +1,72 @@
+.collapse-countainer {
+    margin-bottom:30px;
+}
+
+.collapse-countainer ins.item-label {
+    cursor:pointer !important
+}   
+
+.collapse-countainer ins.item-label:hover {
+    color:#2e8aea !important
+} 
+
+.collapse-countainer .item-label i {
+    float: right;
+    margin: 0px 0px 0px 6px;
+}
+
+.collapse-countainer.le-collapse .usky-row-inner {
+    position:relative;
+    border: 1px dashed #d9d9d9;
+}
+
+.collapse-countainer.le-collapse .usky-row-inner .mainTb {
+    height: 100px;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+.collapse-countainer.le-collapse .usky-row-inner::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    -webkit-box-shadow: inset 0px -10px 17px 0px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px -10px 17px 0px rgba(255,255,255,1);
+    box-shadow: inset 0px -10px 17px 0px rgba(255, 255, 255, 1);
+    z-index: 99;
+    pointer-events: none;
+}
+
+.collapse-countainer.le-collapse .usky-row-inner>ins.item-label {
+    display:block !important;
+    color:#4F4F4F;
+    border: 1px dashed #d9d9d9;
+}
+
+.collapse-countainer.le-collapse .usky-cell {
+    pointer-events: none;
+}
+
+.collapse-countainer.le-collapse .usky-row-inner>ins.item-label {
+  top: -21px;
+  left: -1px;
+}
+
+.collapse-all-tools {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.collapse-all-tools button {
+    margin-left:10px;
+}
+
+
+
+
+
+
+
+  

@@ -1,0 +1,8 @@
+﻿{      
+    javascript: [
+		'~/App_Plugins/leCollapse/leCollapse.controller.js'
+    ],
+	css: [
+		'~/App_Plugins/leCollapse/assets/leCollapse.css'
+    ]
+}
